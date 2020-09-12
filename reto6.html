@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Reto 6</title>
+        <style>
+            body
+            {
+                color: #FE2EF7;
+                font-family: Helvetica;
+                background: #CEF6F5 
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Pizza para llevar</h1>
+        <script>
+            var pizza = parseInt(prompt("De cuantas rebanadas es tu pizza?"));
+            var pizza_consumida = parseInt(prompt("Cuantas porciones vas a consumir?"));
+            pizza_sobrante = pizza - pizza_consumida;
+            document.write("Las porciones que quedan de tu Pizza son: " + pizza_sobrante);
+        </script>
+    </body>
+</html>
